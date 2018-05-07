@@ -14,7 +14,7 @@ module.exports = {
     filename: DIST_JS_NAME
   },
   devServer: {
-    contentBase: path.join(__dirname, './test/'),
+    contentBase: path.join(__dirname, './dist/'),
     compress: true,
     port: 9000
   },
